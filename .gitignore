@@ -1,0 +1,62 @@
+# Exclude all build directories from any directory
+build/
+**/build/
+
+# Exclude all .env files from any directory
+.env
+**/.env
+**/.env.*
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+db.sqlite3
+/media/
+staticfiles/
+*.log
+
+# Virtual Environment
+venv/
+ENV_DIR/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Artifacts
+dist/
+*.cache
+*.lock
+
+# React
+public/env-config.js
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.tmp
+~$*
+
+# Coverage reports
+coverage/
+*.coverage
+.nyc_output/
+
+# Miscellaneous
+*.tmp
