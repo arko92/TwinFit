@@ -120,6 +120,7 @@ export const login = (username, password) => async dispatch => { // Note: redux-
                 type: LOGIN_FAIL,
                 payload: response.data.error
             });
+            alert("Login failed!")
         } else {
             dispatch({
                 type: LOGIN_SUCCESS,
@@ -134,7 +135,7 @@ export const login = (username, password) => async dispatch => { // Note: redux-
             type: LOGIN_FAIL,
             payload: err.response.data.error
         });
-
+        alert("Login failed!")
     }
 }
 
