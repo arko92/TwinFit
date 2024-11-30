@@ -74,7 +74,7 @@ WSGI_APPLICATION = "TwinFit.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "user_management",
+        "NAME": "twinfitDatabase",
         "USER": "postgres",
         "PASSWORD": config("postgre_database_password"),
         "HOST": "localhost",
